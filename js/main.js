@@ -5,8 +5,8 @@ const domContainer = document.querySelector('.react-container');
 const App = () => {
     return (
         <div>
-            <Greeting name="Jane Doe"/>
-            <Greeting name="Sally Anne"/>
+            <Friend firstName="Jane" lastName="Doe" avatar="jdoe.jpg" email="jdoe100@gmail.com"/>
+            
         </div>
     )
 }
