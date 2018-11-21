@@ -20,7 +20,7 @@ const friendData = [
 const App = () => {
     return (
         <div>
-            <Friend friendData={friendData[0]}/>
+            <FriendList friends={friendData}/>
             
         </div>
     )

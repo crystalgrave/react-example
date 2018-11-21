@@ -2,7 +2,8 @@
 
 //  use an object literal for embeded styling
 const friendStyle = {
-    
+    padding: '10px',
+    border: '1px solid #ddd'
 }
 
 
