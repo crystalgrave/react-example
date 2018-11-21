@@ -10,8 +10,8 @@ const friendListStyle = {
 //  Passing simple props to the component
 const FriendList = (props) => {
     const {friends} = props;
-    const friendComps = friends.map(f => 
-        <li><Friend friendData={f}/></li>
+    const friendComps = friends.map((f, idx) => 
+        <li key={idx}><Friend friendData={f}/></li>
     );
     return (
         <ul style={friendListStyle}>
